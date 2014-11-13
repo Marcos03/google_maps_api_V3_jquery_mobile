@@ -1,0 +1,35 @@
+   <?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.example"
+        version     = "1.0.0"
+        versionCode = "10" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="3.6.3" />
+		 <gap:plugin name="org.apache.cordova.device" />
+		
+		
+		   <!-- <access origin="http://google.com" />
+		 <access origin="https://google.com" />
+		 <access origin="http://maps.google.com" />
+		 <access origin="http://*.google.com" />    -->
+		  <access origin="http://*.google.com" /> 
+		<!-- <access origin="*" />-->
+
+        <name>GUIA INSTITUTO TECNOLOGICO ITCC</name>
+
+        <description>
+    	Aplicación para telefonos inteligentes con sistema operativo android, es una pequeña guia sobre el instituto 			tecnologico de cd. Cuauhtemoc en cada una de sus respectivas areas (Vease el plano).
+        </description>
+		<preference name="orientation" value="portrait" />
+		<preference name="fullscreen" value="true" />
+		<icon src="img/cc.png" />
+		<gap:splash src="img/cc.png" />
+		<author href="https://www.facebook.com/MmaRrcOos" email="marcos60_@hotmail.com">
+		Marcos A.R.P
+		</author>
+
+    </widget>
